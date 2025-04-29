@@ -94,9 +94,9 @@ const link = [
           <div className="flex flex-col lg:items-start justify-center gap-3 text-white  my-7  items-center ">
             <p className="text-xl ">Company</p>
             {footer.map((nav , index) =>(
-                          <p className="text-gray-400 text-start hover:text-white hover:scale-105 duration-150">
-                          <Link to={nav.link}>{nav.name}</Link>
-                        </p>
+                          <a href={nav.link} className="text-gray-400 text-start hover:text-white hover:scale-105 duration-150">
+                              {nav.name}
+                          </a>
             ))}
             {/* <p className="text-gray-400 text-start ">
               <Link to="/">Home</Link>
