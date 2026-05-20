@@ -8,6 +8,7 @@ import Blog from './Pages/Blog';
 import Pricing from './Pages/Pricing';
 import ScrollToTop from './utils/ScrollToTop';
 
+
 const App = () => {
   
   
