@@ -9,6 +9,7 @@ import Pricing from './Pages/Pricing';
 import ScrollToTop from './utils/ScrollToTop';
 
 
+
 const App = () => {
   
   
